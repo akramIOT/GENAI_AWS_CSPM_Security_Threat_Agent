@@ -1,11 +1,13 @@
 # GENAI_AWS_CSPM_Security_Threat_Agent
 Langgraph Agent for CSPM usecase
 
-#PROBLEM: 
+# PROBLEM: 
+
 Its  difficult  to understand  the  relationship  between  Cloud  IAM  privilege  role  escalation  security attacks in a  Multi-Cloud Context  
 (CSPM  usecase).  
 
-#SOLUTION:  
+# SOLUTION:  
+
 There is a need to have GENAI  based  interactive graphical interface to understand access relationships between AWS identities and AWS resources.
 It  could be  “Security Threat  Signature Text data  to Visual Graph generation based with  GENAI  LLM approaches”
 
