@@ -15,7 +15,8 @@ from langchain.graphs import Neo4jGraph
 
 openai.api_key = st.secrets['OPENAI_API_KEY']
 
-## Other GraphQL or Graph DB technologies could be used in Future.
+## Other GraphQL or Graph DB technologies could be used
+
 db_products_dict = {
     'CloudQ Postgres': ['postgres', 'postgresql+psycopg2'],
     'Neo4j Graph': ['neo4j', 'neo4j+cypher'],
