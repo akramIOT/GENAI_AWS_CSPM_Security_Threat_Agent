@@ -40,7 +40,7 @@ The edges explain how IAM users and roles can laterally move and perform the s3:
 
 Over-permissive IAM Roles Attached to Compute
 
-In the infamous Capital One Breach, attackers gained access to an EC2 through a misconfigured firewall and an SSRF vulnerability. Once inside, the attacker was able to discover and exfiltrate sensitive data from an S3 bucket. The role attached to the EC2’s was over-permissive and gave the attacker access to substantial resources. ZeusCloud provides a mechanism to show how an IAM role attached to a compute instance can move laterally to gain greater access within a cloud environment. 
+In the infamous Capital One Breach, attackers gained access to an EC2 through a misconfigured firewall and an SSRF vulnerability. Once inside, the attacker was able to discover and exfiltrate sensitive data from an S3 bucket. The role attached to the EC2’s was over-permissive and gave the attacker access to substantial resources. This project's  implementation provides a mechanism to show how an IAM role attached to a compute instance can move laterally to gain greater access within a cloud environment. 
 
 The diagram shows how an IAM Role attached to an EC2 can laterally privilege escalate permissions.
 
